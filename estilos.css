@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #9b7d19;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(228, 188, 11)
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#contato a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#contato a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
+}
+
+#projetos a {
+    text-decoration: none;
+    color: #007BFF; /* Cor azul, Dá para mudar a cor também */
+    display: block;
+    margin-top: 10px; /* Adiciona espaço entre os projetos */
+}
+
+#projetos a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
+}
+
+/* Configurações de animação para a classe .elemento-animado */
+.elemento-animado {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.elemento-animado.animar {
+    opacity: 1;
+}
+
+/* Configurações de animação para a classe .elemento-animado com transformação */
+.elemento-animado-transformacao {
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.elemento-animado-transformacao.animar {
+    transform: scale(1.5);
+}
